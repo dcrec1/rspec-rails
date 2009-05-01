@@ -1,3 +1,29 @@
+=== Version 1.2.6 / 2009-04-30
+
+* bug fixes
+  * restored rake tasks for rspec[-rails] as plugins
+
+=== Version 1.2.5 / 2009-04-29
+
+* enhancements
+  * support :xml and :strict config options for have_tag matcher (patch from
+    Peer Allan and Max Murphy). Closes #783.
+
+* bug fixes
+  * Fixed a small typo that makes rake stats fail (José Valim). Closes #802.
+  * link_to and friends are available to ViewExampleGroup again
+    (J.B. Rainsberger). Closes #787.
+  * spec_server works correctly with rails 2.3 again (Neil Buckley). Closes #759.
+
+=== Version 1.2.4 / 2009-03-13
+
+No changes in this release, but aligns with the rspec-1.2.4 release. Someday
+soon, this binding of rspec/rspec-rails versions needs to end!
+
+=== Version 1.2.3 / 2009-03-13
+
+No changes in this release, but aligns with the rspec-1.2.3 release.
+
 === Version 1.2.2 / 2009-03-22
 
 No changes in this release, but aligns with the rspec-1.2.2 release.
